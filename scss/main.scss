@@ -1,8 +1,10 @@
 body html {
+  font-family: 'Rock Salt', cursive;
   overflow: hidden;
 }
 
 body {
+  font-family: 'Rock Salt', cursive;
   margin: 0;
   padding: 0;
 }
@@ -42,6 +44,8 @@ body {
   }
 }
 
+
+
 @keyframes zombieWalk {
   100% {
     left: -300px;
@@ -54,7 +58,7 @@ body {
   padding: 20px 30px;
   background-color: rgba(0,0,0,0.1);
   text-align: center;
-  line-height: 30px;
+  line-height: 50px;
   color: #8b8b8b;
   font-size: 2rem;
 
@@ -68,4 +72,13 @@ body {
 .box2 {
   top: 30px;
   right: 30px;
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  color: #E4D5A3;
+  width: 100%;
+  font-size: 5rem;
 }
